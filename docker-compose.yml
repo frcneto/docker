@@ -1,0 +1,8 @@
+services:
+  web:
+    image: apache
+    ports:
+      - "80:80"
+    #volumes:
+    #  - .:/code
+    #  - logvolume01:/var/log
