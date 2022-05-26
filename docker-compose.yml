@@ -1,6 +1,6 @@
 services:
   web:
-    image: apache
+    image: httpd
     ports:
       - "80:80"
     #volumes:
